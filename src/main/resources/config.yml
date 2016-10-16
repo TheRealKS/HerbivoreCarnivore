@@ -3,7 +3,7 @@
 carnivore:
   - APPLE
   - BREAD
-  - POTATE
+  - POTATO
 
 #Define what foods are bad for a herbivore here
 #Names must match the Material enum, to be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
