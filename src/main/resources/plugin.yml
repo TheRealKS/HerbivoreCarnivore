@@ -1,0 +1,18 @@
+name: HerbivoreCarnivore
+version: 1.0.0
+author: TheRealKS123
+main: com.koens.herbivorecarnivore.Main
+commands:
+  hc:
+    description: maincommand
+    usage: /hc
+permissions:
+  hc.carnivore:
+    description: This player will be a carnivore
+    default: false
+  hc.herbivore:
+    description: This player will be a herbivore
+    default: false
+  hc.reload:
+    description: Lets the player reload the plugin
+    default: false

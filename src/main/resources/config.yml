@@ -1,0 +1,31 @@
+#Define what foods are bad for a carnivore here
+#Names must match the Material enum, to be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+carnivore:
+  - APPLE
+  - BREAD
+  - POTATE
+
+#Define what foods are bad for a herbivore here
+#Names must match the Material enum, to be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+herbivore:
+  - COOKED_BEEF
+  - COOKED_MUTTON
+  - COOKED_CHICKEN
+
+#Define what effects a carnivore should get when they eat forbidden food
+#Names must match the PotionEffectType enum, to be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+#The syntax of an item in this list is:
+# - EFFECT;DURATION;LEVEL
+# If you leave duration or level out, the duration will be 10 and the level will be 1
+carnivore-effects:
+  - HUNGER;10;2
+  - CONFUSION;15;1
+
+#Define what effects a herbivore should get when they eat forbidden food
+#Names must match the PotionEffectType enum, to be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/potion/PotionEffectType.html
+#The syntax of an item in this list is:
+# - EFFECT;DURATION;LEVEL
+# If you leave duration or level out, the duration will be 10 and the level will be 1
+herbivore-effects:
+  - HUNGER;10;2
+  - CONFUSION;15;1
